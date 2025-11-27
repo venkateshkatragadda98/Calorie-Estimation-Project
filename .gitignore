@@ -1,0 +1,30 @@
+# ---- PROJECT-SPECIFIC LARGE FOLDERS ----
+data/
+Outputs/
+maskrcnn_outputs/
+logs/
+checkpoints/
+cache/
+
+# ---- PYTHON / NOTEBOOK NOISE ----
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pyo
+
+# ---- LARGE MODEL / ARRAY FILES ----
+*.pt
+*.pth
+*.h5
+*.npz
+*.pkl
+*.pickle
+*.zip
+*.tar
+*.tar.gz
+
+# ---- MAC / OS JUNK ----
+.DS_Store
+Thumbs.db
+
+
